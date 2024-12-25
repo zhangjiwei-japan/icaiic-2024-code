@@ -46,7 +46,7 @@ python trian_model.py
 - `dataset`: dataset name "vegas".
 - `num_epochs`: set training epoch 40.
 - `class_dim`: vegas dataset class_dim = 10.
-## 1. Testing :
+## 2. Testing :
 The model in the paper can be tested as follows :
 ```bash
 python test_model.py
