@@ -62,6 +62,6 @@ we use mAP as metrics to evaluate our architecture, when the system generates a 
 |Datasets    | Audio2Visual| Visual2Audio  | mAP |
 | --------   | -----    | -----  |  -----  |
 |#AVE      | ~0.371  | ~0.368 | ~0.370| 
-|#VEGAS  | ~0.881 | ~0.8895  | ~0.888 | 
+|#VEGAS  | ~0.881 | ~0.895  | ~0.888 | 
 ## Contact
 If you have any questions, please email s210068@wakayama-u.ac.jp
