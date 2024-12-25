@@ -136,7 +136,7 @@ def train_model(mid_dim,Lr, beta_, alpha_, batch_size, test_size, num_epochs):
                 best_img_2_audio = img_to_txt
                 print("Best Acc: {}".format(best_acc))
                 if best_acc >= save_threshold:
-                    torch.save(net.state_dict(), './save_modal/audio_image_{}_best_.pth'.format(args.dataset))
+                    torch.save(net.state_dict(), './save_modal/audio_image_{}_best.pth'.format(args.dataset))
              early_stopping(eval_loss, net)
              if early_stopping.early_stop:
                 print("Early stopping")
