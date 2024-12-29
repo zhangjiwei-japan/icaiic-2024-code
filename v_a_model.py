@@ -136,7 +136,7 @@ class cross_modal_net(nn.Module):
         self.classifier_v = Classifier(latent_dim=64,out_label=class_num,kaiming_init=self.kaiming_init)
         # self.classifier.apply(weights_init_classifier)
 
-    def forward(self, visual,audio):
+    def forward(self, img,audio):
         batch_size = img.size(0)
         dimanal = img.size(1)
         # visual-audio encoder 
